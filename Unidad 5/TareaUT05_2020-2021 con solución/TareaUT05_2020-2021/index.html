@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tarea online</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_highlighter.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" /></head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<div id="header">
+<div id="headerContent">
+<h1>Tarea online</h1>
+</div>
+</div>
+<div id="main">
+<div class="node level-1-node" id="exe-node-0">
+<div class="nodeDecoration">
+<h1 id="exenode_0_Tareaonline" class="nodeTitle">Tarea online</h1>
+</div>
+<div class="iDevice_wrapper DestacadofpdIdevice" id="id0-0">
+<div class="iDevice emphasis0" >
+<div class="iDevice_destacadofpd">
+<div id="ta0_66" class="block iDevice_content">
+<div class="block" style="display: block; position: relative;">
+<p><strong>Título de la tarea: Servicios web</strong>.</p>
+<p><strong>Unidad: </strong>5.</p>
+<p><strong>Ciclo formativo y módulo: </strong><acronym title="Desarrollo de Aplicaciones Web">DAW</acronym>, Desarrollo Web en Entorno Servidor.</p>
+<p><strong>Curso académico: </strong>2020/21</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id1-0">
+<div class="iDevice emphasis0">
+<div id="ta1_69" class="block iDevice_content">
+<h4 class="resaltado_inline" style="text-align: center;">¿Qué contenidos o resultados de aprendizaje trabajaremos?</h4>
+<p>En esta tarea se trabajarán aspectos tales como:</p>
+<ul class="lista_verificacion">
+<li>Programación de servicios web usando SOAP.</li>
+<li>Programación de clientes SOAP.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-2-node" id="exe-node-1">
+<div class="nodeDecoration">
+<h1 id="exenode_1_1Descripcindelatarea" class="nodeTitle">1.- Descripción de la tarea</h1>
+</div>
+<div class="iDevice_wrapper CasopracticofpdIdevice em_iDevice" id="id2-1">
+<div class="iDevice emphasis_casopracticofpd" >
+<div class="iDevice_header" style="background-image:url(icon_casopracticofpd.png)"><h2 class="iDeviceTitle">Caso práctico</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_62" class="block iDevice_content">
+<div class="elemento_izquierda">
+<div class="elemento_centrado"><img src="DWES06_CONT_R01_Usando_raton.jpg" alt="Juan programando." title="Juan programando." width="132" height="200" /></div>
+</div>
+<p>Un ayuntamiento se ha puesto en contacto con BK Programación para un proyecto muy interesante. Ada está muy interesada porque cree que le podrán sacar bastante partido al proyecto.</p>
+<p>El ayuntamiento de "<em>Muchos Coches Pocas Calles</em>" necesita conocer cuales son las calles con mayor densidad de tráfico. Su idea es poder redistribuir el tráfico de forma que el movimiento por la ciudad sea más fácil y ágil.</p>
+<p>El proyecto que <strong>Ada</strong> ha propuesto al ayuntamiento consiste en pequeñas estaciones repartidas a lo largo del pueblo encargadas de medir la cantidad de coches que pasan por ciertas calles. Ya ha puesto en manos de un equipo de desarrollo interdisciplinar el diseño de esas estaciones de medida de tráfico.</p>
+<p>Sin embargo, tiene un gran problema. ¿Cómo puede recopilar la información de tráfico obtenida por cada estación? Ciertamente no lo tiene claro, pero Juan le da la idea: "Las estaciones podrían conectarse a Internet y enviar la información a un servicio web, de esa forma podríamos hacer uso de los datos recopilados por las estaciones y que desde el ayuntamiento puedan ver la evolución del tráfico día a día."</p>
+<p>A <strong>Ada</strong> se le ha iluminado la cara y enseguida le ha dicho a Juan que se encarge de hacer un prototipo funcional del servicio web. </p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id19-1">
+<div class="iDevice emphasis0">
+<div id="ta19_154" class="block iDevice_content">
+<p>En esta tarea pondrás en práctica tus conocimientos sobre servicios webs en un servicio web que use SOAP sencillo. Tendrás que implementar tanto la parte de cliente, como la parte de servidor.</p>
+<p>La idea es la que comenta Juan en el caso práctico (échale un vistazo antes de continuar). Se trata de que diferentes estaciones de tráfico autonomas puedan registrar su información en un servidor central a través un servicio web sencillo. Cada estación de tráfico se encarga de contabilizar el volumen de tráfico en una calle concreta en diferentes tramos horarios (identificados como <code>tramo1</code>, <code>tramo2</code>, <code>tramo3</code> y <code>tramo4</code>).</p>
+<p>En esta tarea tienes que hacer un prototipo de servicio web que permita almacenar dicha información y rescatarla posteriormente. Tienes que pensar en todo momento que las aplicaciones cliente (aplicaciones que usan el servicio web y que llamaremos clientes SOAP) y el servicio web en si mismo (servidor SOAP) estarán en máquinas diferentes, aunque aquí lo desarrollarás todo dentro de un mismo proyecto (es un prototipo).</p>
+<p>El servicio SOAP a desarrollar está descrito por el siguiente descriptor WDSL (no te asustes, es extenso pero no muerde):</p>
+<div class="highlighted-code language-markup">
+<div>
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;definitions
+  name="trafico" 
+  targetNamespace="http://localhost/dwes05/tarea"
+  xmlns:tns="http://localhost/dwes05/tarea" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+  xmlns="http://schemas.xmlsoap.org/wsdl/"  
+&gt;
+&lt;types&gt;
+    &lt;xsd:schema targetNamespace="http://localhost/dwes05/tarea"&gt;
+        &lt;xsd:complexType name="medicion"&gt;
+            &lt;xsd:all&gt;
+                &lt;xsd:element name="day" type="xsd:int" /&gt;
+                &lt;xsd:element name="month" type="xsd:int"/&gt;
+                &lt;xsd:element name="year" type="xsd:int"/&gt;
+                &lt;xsd:element name="tramo" &gt;
+                    &lt;xsd:simpleType&gt;
+                        &lt;xsd:restriction base="xsd:string"&gt;
+                            &lt;xsd:enumeration value="tramo1"/&gt;
+                            &lt;xsd:enumeration value="tramo2"/&gt;
+                            &lt;xsd:enumeration value="tramo3"/&gt;
+                            &lt;xsd:enumeration value="tramo4"/&gt;
+                        &lt;/xsd:restriction&gt;
+                    &lt;/xsd:simpleType&gt;
+                &lt;/xsd:element&gt;                
+                &lt;xsd:element name="estacion" type="xsd:string"/&gt;
+                &lt;xsd:element name="recuento" type="xsd:int"/&gt;
+            &lt;/xsd:all&gt;            
+        &lt;/xsd:complexType&gt;
+    &lt;/xsd:schema&gt;    
+&lt;/types&gt;
+&lt;message name="nuevaMedicionRequest"&gt;
+    &lt;part name="datosMedicion" type="tns:medicion"/&gt;
+&lt;/message&gt;
+&lt;message name="nuevaMedicionResponse"&gt;
+    &lt;part name="result" type="xsd:int"/&gt;
+&lt;/message&gt;
+&lt;message name="getMedicionRequest"&gt;
+    &lt;part name="day" type="xsd:int"/&gt;
+    &lt;part name="month" type="xsd:int"/&gt;
+    &lt;part name="year" type="xsd:int"/&gt;
+    &lt;part name="estacion" type="xsd:string"/&gt;
+&lt;/message&gt;
+&lt;message name="getMedicionResponse"&gt;
+    &lt;part name="tramo1" type="xsd:int"/&gt;
+    &lt;part name="tramo2" type="xsd:int"/&gt;
+    &lt;part name="tramo3" type="xsd:int"/&gt;
+    &lt;part name="tramo4" type="xsd:int"/&gt;
+&lt;/message&gt;
+&lt;portType name="medicionPortType"&gt;
+    &lt;operation name="nuevaMedicion"&gt;
+        &lt;input message="tns:nuevaMedicionRequest"/&gt;
+        &lt;output message="tns:nuevaMedicionResponse"/&gt;
+    &lt;/operation&gt;
+    &lt;operation name="getMedicion"&gt;
+        &lt;input message="tns:getMedicionRequest"/&gt;
+        &lt;output message="tns:getMedicionResponse"/&gt;
+    &lt;/operation&gt;
+&lt;/portType&gt;
+&lt;binding name="medicionBinding" type="tns:medicionPortType"&gt;
+    &lt;soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" /&gt;
+    &lt;operation name="nuevaMedicion"&gt;
+        &lt;soap:operation soapAction="http://localhost/dwes05/ws/mediciones.php?nuevaMedicion"/&gt;
+        &lt;input&gt; 
+            &lt;soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/dwes05/tarea" /&gt;
+        &lt;/input&gt;
+        &lt;output&gt;
+            &lt;soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/dwes05/tarea" /&gt;
+        &lt;/output&gt;
+    &lt;/operation&gt;
+    &lt;operation name="getMedicion"&gt;        
+        &lt;soap:operation soapAction="http://localhost/dwes05/ws/mediciones.php?getMedicion"/&gt;
+        &lt;input&gt; 
+            &lt;soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/dwes05/tarea" /&gt;
+        &lt;/input&gt;
+        &lt;output&gt;
+            &lt;soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/dwes05/tarea" /&gt;
+        &lt;/output&gt;
+    &lt;/operation&gt;
+&lt;/binding&gt;    
+&lt;service name="nuevaMedicionService"&gt;
+    &lt;documentation&gt;Servicio para mediciones de tráfico.&lt;/documentation&gt;
+    &lt;port name="nuevaMedicionService" binding="tns:medicionBinding"&gt;
+        &lt;soap:address location="http://localhost/dwes05/ws/mediciones.php" /&gt;
+    &lt;/port&gt;
+&lt;/service&gt;        
+&lt;/definitions&gt;
+</code></pre>
+</div>
+</div>
+<p>Es el momento de que analices con calma el descriptor de servicio web anterior y que busques en los apuntes todos aquellos aspectos que necesites. No es necesario que lo modifiques, solo que lo entiendas.</p>
+<p>De cara a realizar la tarea ten en cuenta que:</p>
+<ul class="lista_verificacion">
+<li>El descriptor WDSL anterior debe ser accesible a través de la URL <a href="http://localhost/dwes05/ws/tarea05.wdsl">http://localhost/dwes05/ws/tarea05.wdsl</a></li>
+<li>Fíjate que en el descriptor anterior se describen dos operaciones:
+<ul>
+<li><code>nuevaMedicion</code>: a través de esta operación las estaciones de tráfico envían los datos de una nueva medición de tráfico en un tramo dado.</li>
+<li><code>getMedicion</code>: a través de esta operación se obtienen las mediciones en los cuatro tramos definidos para un día concreto de una estación concreta.</li>
+</ul>
+</li>
+<li>Fíjate, además, que dichas operaciones tienen unos datos concretos de entrada y otros de salida, y que existe un tipo de datos compuesto (<code>tns:medicion</code>) que se expresará en nuestro código como un objeto.</li>
+</ul>
+<p>Vamos a abordar este proyecto paso a paso, para que sea productivo y aprendas con él.</p>
+<p class="destacado_inline" style="text-align: center;"><span class="exe-link-data file-size" style="font-size: 12pt;"><strong>Se valorará en todos los casos la corrección ortográfica y gramatical de los mensajes para comunicarnos con el usuario, así como la presentación clara de cualquier información que se muestre al usuario.</strong></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-7">
+<div class="nodeDecoration">
+<h1 id="exenode_7_11Ejercicio1activarPHPSOAPycrearlaestructuradeproyecto" class="nodeTitle">1.1.- Ejercicio 1: activar PHP SOAP y crear la estructura de proyecto</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id13-7">
+<div class="iDevice emphasis0">
+<div id="ta13_154" class="block iDevice_content">
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id39-7">
+<div class="iDevice emphasis0">
+<div id="ta39_154" class="block iDevice_content">
+<p>Antes de comenzar tu proyecto deberás realizar varias acciones. Por un lado, los datos del servicio web se almacenarán en una tabla en una tabla como la siguiente:</p>
+<div class="highlighted-code language-sql">
+<div>
+<pre><code>CREATE TABLE medicion (
+  fecha DATE NOT NULL,
+  tramo VARCHAR(10) NOT NULL,
+  estacion VARCHAR(45) NOT NULL,
+  recuento INT NOT NULL,
+  PRIMARY KEY (fecha, tramo));</code></pre>
+</div>
+</div>
+<p>Deberás crear la tabla anterior en la base de datos como parte de este paso, aunque dicha tabla no la usarás hasta el ejercicio 6.</p>
+<p>Por otro lado, deberás crear la estructura del proyecto (se indican carpeta, subcarpetas y los archivos finales indicados en los ejercicios):</p>
+<ul class="lista_verificacion">
+<li><code>dwes05/</code><br />
+<ul class="lista_verificacion">
+<li><code>ejercicio1.php</code>: código del ejercicio a realizar en este apartado.</li>
+<li><code>ejercicio4.php</code>: código del ejercicio a realizar en el apartado 4.</li>
+<li><code>ejercicio5.php</code>: código del ejercicio a realizar en el apartado 5.</li>
+<li><code>ws/</code>: carpeta en la que irá alojado todo el código correspondiente al servicio web.<br />
+<ul class="lista_verificacion">
+<li><code>config/ </code>: carpeta que contendra la configuración apara acceder a la base de datos.<br />
+<ul class="lista_verificacion">
+<li><code>settings.php</code>: Archivo que contiene la configuración de acceso a la base de datos usando <code>PDO</code>.</li>
+</ul>
+</li>
+<li><code></code><code>tarea05.wsdl</code> : descriptor WSDL del servicio SOAP (se proporciona en la descripción)</li>
+<li><code>mediciones.php</code> : archivo principal del servicio web SOAP.</li>
+<li><code>MedicionModel.php</code>: archivo que implementará una clase con los métodos para dar soporte a los servicios web.</li>
+<li><code>verlog.php</code>: archivo que se añadirá más adelante y que permitirá ver que eventos y errores han ocurrido en el servicio web.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Ten en cuenta que el proyecto debe ser accesible a través de la URL <code>http://localhost/dwes05/</code>, y que el servicio web deberá ser accesible a través de la url <code>http://localhost/dwes05/ws/mediciones.php</code> (que es la URL indicada en el descriptor WSDL). En sucesivos ejercicios irás desarrollando el servicio web, no te preocupes.</p>
+<p>Otro aspecto, el más importante, a realizar en este ejercicio es <strong>la activación de PHP SOAP</strong>. Normalmente, en una instalación de desarrollo de XAMP suele estar deshabilitado. Para habilitarlo tendrás que editar el archivo <code>php.ini</code> y activar la extensión quitando el punto y coma:</p>
+<p style="text-align: center;"><img src="activar_soap_php.1.png" width="700" height="376" /></p>
+<p style="text-align: left;">Una vez activada la extensión, en el <code>dwes05/ejercicio1.php </code>tendrás que hacer un script que verifique que las clases <code>SoapClient</code> y <code>SoapServer</code> existen usando el método <a href="https://www.php.net/manual/en/function.class-exists.php" target="_blank" rel="noopener"><code>class_exists</code></a>. Solo tienes que mostrar un mensaje que indique si las clases existen ono, ya está.</p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: center;"><strong>¡Importante! Recuerda que después de activar una extensión o realizar un cambio en el archivo php.ini tienes que reiniciar el servidor web.</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-9">
+<div class="nodeDecoration">
+<h1 id="exenode_9_12Ejercicio2creamoselesqueletomnimo" class="nodeTitle">1.2.- Ejercicio 2: creamos el esqueleto mínimo.</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id15-9">
+<div class="iDevice emphasis0">
+<div id="ta15_154" class="block iDevice_content">
+<p>Cuando hablamos de esqueleto, hablamos de un conjunto de clases y métodos que no tienen una implementación completa, sino una implementación de partida de modo que se puede usar como base para luego ir complementando nuestro código.</p>
+<p>Antes de empezar, si te has fijado en el archivo WSDL, habrás visto que hay dos operaciones: <code>nuevaMedicion</code> y <code>getMedicion</code>. Veamos a que corresponden:</p>
+<p>La operación <code>nuevaMedicion</code> es usada para notificar una nueva medición. Esta operación tiene como entrada (input) un objeto compuesto por 6 elementos:</p>
+<ul class="lista_verificacion">
+<li><code>day</code>: día en el que se produce la medicion.</li>
+<li><code>month</code>: mes en el que se produce la medicion.</li>
+<li><code>year</code>: año al que corresponde la medicion.</li>
+<li><code>estacion</code>: estación en la que se produce la mecición (no puede estar vacío)</li>
+<li><code>tramo</code>: tramo horario de la medicion, el cual puede ser uno de lo siguientes 4 valores; <code>tramo</code>1, <code>tramo2</code>, <code>tramo3</code> o <code>tramo4</code>.</li>
+<li><code>recuento</code>: recuento de coches que han pasado en esa fecha por la estación. Es un valor que debe ser mayor o igual a 0.</li>
+</ul>
+<p>Como resultado la operación <code>nuevaMedicion</code> retornará un número entero con uno de lo siguientes valores:</p>
+<ul class="lista_verificacion">
+<li><code>-1</code>: existe un error en los datos y no se puede procesar. El error puede ser debido a que la fecha, la estación, el tramo o el recuento son no válidos.</li>
+<li><code>-2</code>: existe un error en la base de datos y no se ha podido almacenar el dato.</li>
+<li><code>0</code>: operacion efectuada correctamente, los datos se han guardado en la base de datos (previamente no existian).</li>
+<li><code>1</code>: operación efectuada correctamente, los datos ya existian en la base de datos y se han modificado.</li>
+</ul>
+<p>Por otro lado la operación <code>getMedicion</code> es usada para que un cliente SOAP pueda recuperar los datos medidos en una fecha concreta, por lo que como entrada (input) adimitirá 4 datos separados:</p>
+<ul class="lista_verificacion">
+<li><code>day</code>: día del que se necesitan los datos.</li>
+<li><code>month</code>: mes del que se necesitan los datos.</li>
+<li><code>year</code>: año del que se necesitan los datos.</li>
+<li><code>estacion</code>: estación de la que se necesitan los datos.</li>
+</ul>
+<p>El resultado de esta operación será un array asociativo con cuatro llaves (<code>tramo1</code>, <code>tramo2</code>, <code>tramo3</code> y <code>tramo4</code>), y los recuentos almacenados en la base de datos para cada tramo. Al realizar esta operación pueden pasar situaciones que hay que manejar adecuadamente:</p>
+<ul class="lista_verificacion">
+<li>a) En la base de datos no hay ningún dato para la fecha dada. En este caso, todos los tramos (<code>tramo1</code>, <code>tramo2</code>, <code>tramo3</code> y <code>tramo4</code>) tendrá como valor <code>-1</code> para así la existencia de un error.</li>
+<li>b) En la base de datos no haya ningún dato almacenado para la estación indicada. En este caso, todos los tramos también tendrán como valor <code>-1</code>, al igual que el caso anterior.</li>
+<li>c) En la base de datos hay datos para una estación y fecha, pero hay tramos sin información. En este caso, solo los tramos no existentes tendrán como valor <code>-1</code>.</li>
+<li>d) Se ha producido un error en la base de datos y no se ha podido realizar la operación. En este caso, todos los tramos tendrán como valor <code>-2</code>.</li>
+</ul>
+<p>Una vez que ya sabes como funciona el servicio web y el resultado esperado de cada operación, vamos a codificar un poco. Todavía no es necesario que implementes las operaciones de acceso a la base de datos, eso se hará más adelante. De momento vamos a crear la clase <code>MedicionModel</code> (archivo <code>dwes05/ws/MedicionModel.php</code>) para manejar las operaciones definidas en el archivo WSDL. Esta clase tendrá, de momento, los siguientes métodos y el siguiente comportamiento:</p>
+<ul class="lista_verificacion">
+<li>Constructor sin argumentos y que de momento no hará nada.</li>
+<li>Método público <code>nuevaMedicion</code> que admitirá un único parámetro (<code>$medicion</code>). Ese único parámetro será un objeto que contendrá los atributos antes indicados (<code>day</code>, <code>month</code>, <code>year</code>, etc.). De momento, este método recien creado se limitará a retornar un número aleatorio.</li>
+<li>Método público <code>getMedicion</code> que admitirá 4 parámetros: <code>day</code>, <code>month</code>, <code>year</code> y <code>estacion</code>. Este método retornará el array asociativo indicado (llaves <code>tramo1</code>, <code>tramo2</code>, <code>tramo3</code> y <code>tramo4</code>) cuyos valores serán números aleatorios (en vez de datos obtenidos de la base de datos).</li>
+</ul>
+<p>Como puedes observar, los métodos de esta clase dan soporte a las operaciones definidas en el descriptor <code>WSDL</code>.</p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper DestacadofpdIdevice" id="id40-9">
+<div class="iDevice emphasis0" >
+<div class="iDevice_destacadofpd">
+<div id="ta40_151" class="block iDevice_content">
+<p><strong>Si necesitas crear alguna clase adicional, siente libre de hacerlo. Lo que se describe aquí es lo mínimo a realizar.</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-8">
+<div class="nodeDecoration">
+<h1 id="exenode_8_13Ejercicio3vamosaporelSOAPserver" class="nodeTitle">1.3.- Ejercicio 3: vamos a por el SOAP server.</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id14-8">
+<div class="iDevice emphasis0">
+<div id="ta14_154" class="block iDevice_content">
+<p>Una vez creada la clase <code>MedicionModel</code>, vamos a codificar el archivo que hará de punto de acceso al servicio web. Este archivo es el archivo <code>mediciones.php</code> (<code>dwes05/ws/mediciones.php</code>).</p>
+<p>Una de las dificultades de trabajar con servicios SOAP y otros web services, es depurar la aplicación y encontrar errores. El problema reside en que si PHP emite errores o cualquier tipo de texto, el mensaje SOAP no será correcto y no funcionará el servicio web.</p>
+<p>Una solución para esto es desviar los mensajes de error a un archivo de texto, de forma que luego puedan ser consultados después de la ejecución cómodamente, y esto es lo que vamos a hacer. Esto, junto con el depurador te servirá para analizar que ocurre en el servicio web y si es todo correcto.</p>
+<p>Para hacer esto, en el archivo<code> mediciones.php</code>, vamos a desviar los errores a un archivo con el siguiente código:</p>
+<div class="highlighted-code language-php">
+<div>
+<pre><code>ini_set("log_errors", 1);
+ini_set("error_log", "ws-errors.log");
+ini_set("display_errors", 0);
+error_reporting(E_ALL);</code></pre>
+</div>
+</div>
+<p>El código anterior hará que los errores se vuelquen a un archivo (el archivo <code>ws-errors.log</code>) y que no se envíen al navegador.</p>
+<p>Aquí es importante insistir en el hecho de que no se puede usar <code>echo</code>, <code>print</code> o similar en ningún momento, dado  se producirian errores en el servicio web SOAP al producir mensajes SOAP incorrectos. Si necesitas generar información para depurar tu aplicación debes utilizar otro mecanismo, por ejemplo:</p>
+<ul class="lista_verificacion">
+<li>Escribir en el archivo <code>ws-errors.log</code> con la función <code><a href="https://www.php.net/manual/es/function.file-put-contents.php" target="_blank" rel="noopener">file_put_contents</a></code> con el flag <code>FILE_APPEND</code> para que añada contenido al final del archivo.</li>
+<li>Forzar la generación de un error PHP con el método <a href="https://www.php.net/manual/es/function.trigger-error.php" target="_blank" rel="noopener"><code>trigger_error</code></a>. Esta es posiblemente la opción más sencilla.</li>
+<li>Haz uso del segundo parámetro del método <a href="https://www.php.net/manual/es/function.print-r.php" target="_blank" rel="noopener">print_r</a> y así obtener el resultado en un string que puedas volcar al archivo de log.</li>
+</ul>
+<p>Una vez hecho esto, vamos a crear un script para poder ver más cómodamente el contenido del archivo <code>ws-errors.log</code>. El script se llamará <code>verlog.php</code> (<code>dwes05/ws/verlog.php</code>) y puedes basarte en el siguiente código para su realización:</p>
+<div class="highlighted-code language-php">
+<div>
+<pre><code>&lt;?php
+header( "refresh:5;url=verlog.php" );
+if (isset($_GET['cleanlog'])) {
+    unlink('ws-errors.log');
+}
+echo '&lt;h3&gt; Last call '.date('d-m-Y H:i:s').'&lt;/h3&gt;';
+
+if (file_exists("ws-errors.log")) {   
+    echo '&lt;pre&gt;';
+    readfile("ws-errors.log");
+    echo '&lt;/pre&gt;';
+}
+else
+{
+    echo '&lt;h1&gt;No log file!&lt;/h1&gt;';
+}</code></pre>
+</div>
+</div>
+<p>Por supuesto el código anterior es personalizable, adaptalo a tu gusto.</p>
+<p>Después de esto, ya solo nos falta completar el código de <code>mediciones.php</code> para que se comporte como un servicio web (este es el aspecto más importante, obviamente). Lo que faltaría es:</p>
+<ul class="lista_verificacion">
+<li>Crear una instancia de <code>SoapServer</code> usando como parámetro la url del descriptor WSDL que estamos desarrollando (<code>http://localhost/dwes05/ws/tarea05.wsdl</code>).</li>
+<li>Establecer la clase manejadora de las peticiones SOAP a la clase "<code>MedicionModel</code>" (creada en el paso anterior). Para esto deberás usar el método <code>setClass</code> de la clase <code>SoapServer</code>.</li>
+<li>Invocar el método <code>handle</code> para manejar la petición y redireccionarla al método esperado.</li>
+</ul>
+<p>El código anterior es sencillo, son solo 3 líneas de código, pero es la base para que esto empieze a funcionar.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-6">
+<div class="nodeDecoration">
+<h1 id="exenode_6_14Ejercicio4registrarunamedicinconSOAPClient" class="nodeTitle">1.4.- Ejercicio 4: registrar una medición con SOAPClient.</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id34-6">
+<div class="iDevice emphasis0">
+<div id="ta34_154" class="block iDevice_content">
+<p>Ahora es el momento de empezar a usar el servicio web. ¡¡Llego la hora de la verdad!! No te preocupes, es fácil.  </p>
+<p>Este ejercicio se realizará en el script <code>dwes05/ejercicio4.php</code> y será accesible a través de la URL <code>http://localhost/dwes05/ejercicio4.php</code>.</p>
+<p>En este script debes realizar una interfaz web que solicite al usuario los datos necesarios para la operación <code>nuevaMedicion</code> del servicio web que tenemos entre manos. Una vez que el usuario introduzca los datos, se invocará el servicio web usando <code>SoapClient</code>.</p>
+<p>Veamos en detalle como debe comportarse el script <code>dwes05/ejercicio4.php</code>:</p>
+<ul class="lista_verificacion">
+<li>Al consultarse por primera vez, debe mostrar un formulario con los datos necesarios para crear una nueva medición.</li>
+<li>Cuando se envía el formulario vía POST al script <code>ejercicio4.php</code>, debe realizarse lo siguiente:
+<ul class="lista_verificacion">
+<li>Crea una instancia de <code>SoapClient</code> pasandole por parámetro la URL del servicio web que estamos desarrollando (<code>http://localhost/dwes05/ws/tarea05.wsdl</code>).</li>
+<li>Invoca la operación correspondiente para registrar una nueva medición pasandole un único argumento (tipo objeto) con todos los datos recibidos del usuario. Aquí tienes que tener en cuenta dos cosas:<br />
+<ul class="lista_verificacion">
+<li>Los nombres de los atributos en el objeto deben coincidir con el nombre indicado en el descriptor WSDL (<code>day</code>, <code>month</code>, <code>year</code>, etc).</li>
+<li>Los datos que envía el usuario no se validarán de forma completa. Solo se verificarán que se han proporcionado (<code>isset</code>) y que tienen el contenido correcto (entero o cadena según corresponda).</li>
+</ul>
+</li>
+<li>Analiza el resultado de la operación recibido del servicio web:
+<ul class="lista_verificacion">
+<li>Muestra un mensaje en consonacia en función del código de error recibido.</li>
+<li>Si el código de error indica que la operación fue llevada con éxito, almacena la fecha y la estación en la sesión, de forma que luego se pueda usar dicha información en el script del ejercicio 5.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Por su parte, en el servicio web, tenemos que hacer algunas modificaciones, concretamente en el método <code>nuevaMedicion</code> de la clase <code>MedicionModel</code> (que es el que da soporte a la operación SOAP <code>nuevaMedicion</code>). En dicho método debes validar los datos recibidos, comprobando que:</p>
+<ul class="lista_verificacion">
+<li>El día, el mes y el año corresponden a una fecha válida y que exista (recuerda que php tiene funciones para validar fechas), y que no sea "del futuro".</li>
+<li>Que el tramo sea uno tramo válido: <code>tramo</code>1, <code>tramo2</code>, <code>tramo3</code> o <code>tramo4</code>.</li>
+<li>Que la estación no sea una cadena vacía.</li>
+<li>Que el recuento no sea un número negativo (puede ser cero).</li>
+</ul>
+<p>Este método todavía no almacenará información en la base de datos, por lo que, si los datos son correctos deberá retornar <code>-2</code> (error en la base de datos). Vamos ampliando funcionalidad poco a poco.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-18">
+<div class="nodeDecoration">
+<h1 id="exenode_18_15Ejercicio5consultarunamedicinconSOAPClient" class="nodeTitle">1.5.- Ejercicio 5: consultar una medición con SOAPClient.</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id35-18">
+<div class="iDevice emphasis0">
+<div id="ta35_154" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id36-18">
+<div class="iDevice emphasis0">
+<div id="ta36_154" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id37-18">
+<div class="iDevice emphasis0">
+<div id="ta37_154" class="block iDevice_content">
+<p>Siguiendo un proceso análogo al del ejercicio 4, pero con algunas evidentes diferencias, vamos ahora a usar la otra operación del servicio web: <code>getMedicion</code>.</p>
+<p>Para realizar este ejercicio deberás crear un script llamado <code>ejercicio5.php</code> (<code>dwes05/ejercicio5.php</code>) accesible a través de la url <code>http://localhost/dwes05/ejercicio5.php</code>. En este script debe hacerse lo siguiente:</p>
+<ul class="lista_verificacion">
+<li>En primer lugar debe comprobar si existe información en la sesión (fecha y estación) procedente de la última medición registrada a través de <code>ejercicio4.php</code>:
+<ul class="lista_verificacion">
+<li>En caso de que exista dicha información, debe usarse dicha información en la operación SOAP <code>getMedicion</code>.</li>
+<li>En caso de que no exista dicha información, debe solicitarse al usuario dicha información a través de un formulario. En cualquier caso, siempre existirá un formulario que permitirá cambiar la fecha y la estación a consultar.</li>
+<li>Si el usuario cambia la fecha y estación a través el formulario, se cambiará la fecha y estación almacenada en la sesión, de forma que al volver a invocar este script se "recuerde" la última fecha y estación consultadas.</li>
+</ul>
+</li>
+<li>En segundo lugar, si se dispone de la información necesaria (fecha -<code>day</code>, <code>month</code>, <code>year</code>- y <code>estacion</code>), ya provenga de la información de sesión o del formulario, se realizará lo siguiente:
+<ul class="lista_verificacion">
+<li>Se verificará la existencia de la información necesaria para usar el servicio web y que los tipos de datos corresponden con los esperados (entero o cadena según corresponda). No se realizará ninguna otra validación.</li>
+<li>Se invocará la operación <code>getMedicion</code> del servicio web que estamos desarrollando a través de <code>SoapClient</code>, de forma similar a como se describe en el ejercicio anterior.</li>
+<li>Se mostrará el resultado de realizar dicha operación, mostrando los datos recibidos. Si se trata de un error, deberá mostrar el pertinente mensaje de error.</li>
+</ul>
+</li>
+</ul>
+<p>Y como es de esperar, en el servicio web tenemos también que hacer algunas modificaciones, ahora en el método <code>getMedicion</code> de la clase <code>MedicionModel</code> (que es el que da soporte a la operación SOAP <code>getMedicion</code>). En dicho método debes validar los datos recibidos, comprobando que:</p>
+<ul class="lista_verificacion">
+<li>El día, el mes y el año corresponden a una fecha válida y que exista (recuerda que php tiene funciones para validar fechas), y que no sea "del futuro".</li>
+<li>Que la estación no sea una cadena vacía.</li>
+</ul>
+<p>Nuevamente, este método todavía no almacenará información en la base de datos, por lo que, si los datos son correctos deberá retornar <code>-2</code> (error en la base de datos). En el siguiente ejercicio nos encargamos de eso.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-3-node" id="exe-node-19">
+<div class="nodeDecoration">
+<h1 id="exenode_19_16Ejercicio6almacenarlosdatosenlabasededatos" class="nodeTitle">1.6.- Ejercicio 6: almacenar los datos en la base de datos.</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id38-19">
+<div class="iDevice emphasis0">
+<div id="ta38_154" class="block iDevice_content">
+<p>En este apartado modificaremos ahora el servicio web (principalmente la clase <code>MedicionModel</code>) para hacer que guarde la información de las mediciones en la base de datos.</p>
+<p>Todas las modificaciones a este respecto se realizarán siempre dentro de la carpeta <code>dwes05/ws</code>. El motivo es que el servicio web SOAP es normalmente una aplicación web independiente del cliente SOAP. En nuestro desarrollo deberíamos ser capaces de llevarnos solo la parte del servicio web (carpeta <code>ws</code>) a un servidor independiente y que este pueda seguir siendo usado desde otros clientes SOAP. Tenlo en cuenta.</p>
+<p>Para desarrollar esta parte solo hay cuatro restricciones:</p>
+<ul class="lista_verificacion">
+<li>Debes situar la configuración de acceso a la base de datos en el archivo <code>dwes05/ws/config/settings.php</code>.</li>
+<li>Debes crear un atributo privado en la clase <code>MedicionModel</code> donde almacenes la instancia de PDO a usar en el resto de los ejercicios.</li>
+<li>En el constructor de la clase <code>MedicionModel</code> debes crear una instancia de PDO, almacenarla en el atributo antes especificado y usarla donde necesites. No crear más instancias de PDO innecesariamente, dado que esto hará que el servicio web baje mucho su rendimiento.</li>
+<li><strong>Por seguridad, debes usar obligatoriamente consultas preparadas</strong>.</li>
+</ul>
+<p>Dicho esto, ya solo falta que pongas el broche final a la tarea almacenando la información en la base de datos.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-2-node" id="exe-node-2">
+<div class="nodeDecoration">
+<h1 id="exenode_2_2Informacindeinters" class="nodeTitle">2.- Información de interés</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id4-2">
+<div class="iDevice emphasis0">
+<div id="ta4_69" class="block iDevice_content">
+<h4 class="resaltado_inline" style="text-align: center;">Recursos necesarios y recomendaciones</h4>
+<h4>Recomendaciones específicas de esta tarea</h4>
+<ul class="lista_verificacion">
+<li>Es recomendable que configures el depurador de PHP, te facilitará bastante depurar el servidio web.</li>
+<li>Es muchas instalaciones de php los errores está configurados para no mostrarse al usuario. Mientras estas desarrollando una aplicación es imprescindible que los errores de php se muestre, de forma que podamos corregir cualquier aplicación antes de que llegue al usuario final. En el siguiente enlace se explica como:<br /><br />
+<p style="text-align: center;"><a href="https://desafiohosting.com/como-mostrar-errores-php/" class="html">¿Cómo mostrar errores php?</a></p>
+</li>
+</ul>
+<h4>Recomendaciones generales</h4>
+<ul class="lista_verificacion">
+<li>Como ya sabes, para escribir aplicaciones en PHP necesitarás un entorno XAMPP, LAMPP o similar. No te vamos a pedir que instales un entorno u otro, o que trabajes con un sistema operativo concreto, pero si que todos los <strong>archivos vayan codificados en UTF-8</strong> y que<strong> las rutas a los archivos sean siempre relativas</strong>.</li>
+<li>Como plataforma de desarrollo (para escribir código), te aconsejamos <strong>NetBeans 12</strong>. Es la misma herramienta que se usa en otros módulos y no tendrás que cambiar de herramienta.</li>
+<li>No abordes la tarea hasta que hayas repasado todos los contenidos, y hecho al menos uno de los intentos para el examen en línea, de forma que hayas tenido ocasión de consultar y resolver en los foros cualquier duda que te haya podido surgir.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ParasabermasfpdIdevice em_iDevice" id="id6-2">
+<div class="iDevice emphasis_parasabermasfpd" >
+<div class="iDevice_header" style="background-image:url(icon_parasabermasfpd.png)"><h2 class="iDeviceTitle">Indicaciones de entrega</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_43" class="block iDevice_content">
+<p><span>Una vez realizada la tarea, el envío se realizará a través de la plataforma. Comprime la carpeta del proyecto </span><span>en un fichero .zip y nómbralo siguiendo las siguientes pautas</span>:</p>
+<p class="enlace_centrado"><strong>Apellido1_Apellido2_Nombre_DWES_Tarea04</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-2-node" id="exe-node-3">
+<div class="nodeDecoration">
+<h1 id="exenode_3_3Evaluacindelatarea" class="nodeTitle">3.- Evaluación de la tarea</h1>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id7-3">
+<div class="iDevice emphasis0">
+<div id="ta7_69" class="block iDevice_content">
+<h4 class="resaltado_inline" style="text-align: center;">Criterios de evaluación implicados</h4>
+<ul class="lista_verificacion">
+<li>
+<div class="exe-figure exe-image float-right license-custom" style="width: 250px;"><img src="Evaluacion.jpg" alt="Ilustración de un muñeco con un lápiz enorme, añadiendo checks a una lista" title="Evaluación" width="250" height="250" />
+<div class="figcaption"><a href="https://pixabay.com/es/illustrations/fax-var%C3%B3n-blanco-modelo-3d-aislado-1889009/" target="_blank" class="author" rel="noopener">Peggy_Marco</a> <span class="license"><span class="sep">(</span><span class="custom-license"><span class="sep">(<a href="https://pixabay.com/es/service/license/" title="Acceder a los términos de la Licencia Pixabay. (Se abre en una nueva ventana)" target="_blank" rel="noopener">Pixabay License</a></span></span><span class="sep">)</span></span></div>
+</div>
+Se han reconocido las características propias y el ámbito de aplicación de los servicios Web.</li>
+<li>Se han reconocido las ventajas de utilizar servicios Web para proporcionar acceso a funcionalidades incorporadas a la lógica de negocio de una aplicación.</li>
+<li>Se han identificado las tecnologías y los protocolos implicados en la publicación y utilización de servicios Web.</li>
+<li>Se ha programado un servicio Web.</li>
+<li>Se ha creado el documento de descripción del servicio Web.</li>
+<li>Se ha verificado el funcionamiento del servicio Web.</li>
+<li>Se ha consumido el servicio Web.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextfpdIdevice" id="id8-3">
+<div class="iDevice emphasis0">
+<div id="ta8_69" class="block iDevice_content">
+<h4 class="resaltado_inline" style="text-align: center;">¿Cómo valoramos y puntuamos tu tarea?</h4>
+<p> En esta puedes observar la puntuación máxima asignada a cada ejercicio de la tarea:</p>
+<table class="tabla" style="width: 100%; height: 117px;" summary="Tabla de dos columnas que contienen los criterios de corrección y puntuación para la tarea de la unidad." border="0">
+<tbody>
+<tr style="height: 23px;">
+<th style="width: 100%; height: 23px;" scope="col" colspan="2">
+<p style="text-align: center;"><strong><span style="font-size: large;"><strong><span style="font-size: large;">Rúbrica de la tarea<br /></span></strong></span></strong></p>
+</th>
+</tr>
+<tr style="height: 16px;">
+<td style="width: 75%; height: 16px;">
+<p><span><span>Se ha implementado el ejercicio 1 apropiadamente y funciona correctamente.</span></span></p>
+</td>
+<td style="width: 25%; height: 16px;">
+<p><strong>hasta 0,5 puntos</strong></p>
+</td>
+</tr>
+<tr style="height: 16px;">
+<td style="width: 75%; height: 16px;">
+<p>Se ha implementado el ejercicio 2 apropiadamente y funciona correctamente.</p>
+</td>
+<td style="width: 25%; height: 16px;">
+<p><strong>hasta 0,5 puntos</strong></p>
+</td>
+</tr>
+<tr style="height: 16px;">
+<td style="width: 75%; height: 16px;">
+<p>Se ha implementado el ejercicio 3 apropiadamente y funciona correctamente.</p>
+</td>
+<td style="width: 25%; height: 16px;">
+<p><strong>hasta 1 puntos</strong></p>
+</td>
+</tr>
+<tr style="height: 16px;">
+<td style="width: 75%; height: 16px;">
+<p><span><span>Se ha implementado el ejercicio 4 apropiadamente y funciona correctamente.</span></span></p>
+</td>
+<td style="width: 25%; height: 16px;">
+<p><strong>hasta 2,5 puntos</strong></p>
+</td>
+</tr>
+<tr style="height: 15px;">
+<td style="width: 75%; height: 15px;">
+<p><span><span>Se ha implementado el ejercicio 5 apropiadamente y funciona correctamente.</span></span></p>
+</td>
+<td style="width: 25%; height: 15px;">
+<p><strong>hasta 2,5 puntos</strong></p>
+</td>
+</tr>
+<tr style="height: 15px;">
+<td style="width: 75%; height: 15px;">
+<p><span><span>Se ha implementado el ejercicio 6 apropiadamente y funciona correctamente.</span></span></p>
+</td>
+<td style="width: 25%; height: 15px;">
+<p><strong>hasta 3 puntos</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="node level-2-node" id="exe-node-4">
+<div class="nodeDecoration">
+<h1 id="exenode_4_AnexoLicenciaderecursos" class="nodeTitle">Anexo. Licencia de recursos</h1>
+</div>
+<div class="iDevice_wrapper DestacadofpdIdevice" id="id9-4">
+<div class="iDevice emphasis0" >
+<div class="iDevice_destacadofpd">
+<div id="ta9_66" class="block iDevice_content">
+<p><strong>Nota:</strong><br /><br />Para esta tarea no es necesario incluir en este anexo la cita de las licencias de ning&uacute;n recurso. Este anexo incluye exclusivamente recursos cuya licencia obliga a la cita expresa y que, por la extensi&oacute;n de sus credenciales o por cualquier cuesti&oacute;n t&eacute;cnica, no se pueden citar en l&iacute;nea. El resto de recursos son de elaboraci&oacute;n propia y no requieren cita expresa, quedando su licencia expresada en la de los propios materiales o citada en l&iacute;nea, en el lugar donde aparecen en los contenidos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<script type="text/javascript" src="_fpd_js.js"></script></body>
+</html>
